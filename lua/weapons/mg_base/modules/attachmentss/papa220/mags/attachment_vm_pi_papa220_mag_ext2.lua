@@ -20,8 +20,8 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Reload = weapon.Animations.Reload_XmagLrg
     weapon.Animations.Reload_Empty = weapon.Animations.Reload_Empty_XmagLrg
     weapon.Animations.Reload_Fast = weapon.Animations.Reload_XmagLrg_Fast
-	weapon.Animations.Inspect = weapon.Animations.Inspect_Xmaglrg
-	weapon.Animations.Inspect_empty = weapon.Animations.Inspect_empty_Xmaglrg
+	weapon.Animations.Inspect = weapon.Animations.Inspect_xmaglrg
+	weapon.Animations.Inspect_empty = weapon.Animations.Inspect_empty_xmaglrg
     weapon.Animations.Reload_Empty_Fast = weapon.Animations.Reload_Empty_XmagLrg_Fast
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.95
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.95

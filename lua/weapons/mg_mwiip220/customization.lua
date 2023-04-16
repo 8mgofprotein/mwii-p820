@@ -25,7 +25,7 @@ SWEP.Customization = {
 
     {"att_receiver"},
 	
-    {"att_pgripmw2", "attachment_vm_pi_papa220_pistgripaim", "attachment_vm_pi_papa220_pistgripass", "attachment_vm_pi_papa220_pistgriptac", "attachment_vm_pi_papa220_pistgripsnp"},
+    {"att_pistolgrip", "attachment_vm_pi_papa220_pistgripaim", "attachment_vm_pi_papa220_pistgripass", "attachment_vm_pi_papa220_pistgriptac", "attachment_vm_pi_papa220_pistgripsnp"},
 
     {"attachment_vm_pi_papa220_mag", "attachment_vm_pi_papa220_mag_ext", "attachment_vm_pi_papa220_mag_ext2"},
 

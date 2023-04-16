@@ -37,12 +37,11 @@ SWEP.ParticleEffects = {
  
 SWEP.Primary.Sound = Sound("weap_papa320_fire_plr")
 SWEP.Primary.Ammo = "Pistol"  
-SWEP.Primary.ClipSize = 8
-SWEP.FreezeInspectDelta = 0.35   
+SWEP.Primary.ClipSize = 8 
 SWEP.Primary.Automatic = false 
 SWEP.Primary.BurstRounds = 1   
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 600 
+SWEP.Primary.RPM = 286
 SWEP.CanChamberRound = true  
 
 SWEP.Reverb = {
