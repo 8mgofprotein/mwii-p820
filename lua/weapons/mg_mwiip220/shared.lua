@@ -22,7 +22,7 @@ SWEP.VModel = Model("models/kyo/vm_pl_p220.mdl")
 SWEP.WorldModel = Model("models/viper/mw/weapons/w_p320.mdl")
 SWEP.Trigger = {
     PressedSound = Sound("weap_papa320_fire_first"),
-    ReleasedSound = Sound("weap_papa320_fire_disconnector"),
+    ReleasedSound = Sound("p27_pi_papa220_fire_disconnector"),
     Time = 0.025
 }
 
@@ -35,7 +35,7 @@ SWEP.ParticleEffects = {
     ["Ejection"] = "AC_muzzle_pistol_ejection",
 }
  
-SWEP.Primary.Sound = Sound("weap_papa320_fire_plr")
+SWEP.Primary.Sound = Sound("p27_pi_papa220_fire_plr")
 SWEP.Primary.Ammo = "Pistol"  
 SWEP.Primary.ClipSize = 8 
 SWEP.Primary.Automatic = false 

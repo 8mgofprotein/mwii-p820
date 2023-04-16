@@ -1,17 +1,17 @@
 AddCSLuaFile()
 
 function SWEP:doSuppressorStats()
-    self.Primary.Sound = Sound("weap_papa320_sup_plr")
+    self.Primary.Sound = Sound("p27_pi_papa220_sup_plr")
     self.Reverb = {
         RoomScale = 50000,
         Sounds = {
             Outside = {
-                Layer = Sound("Atmo_Pistol_Mag_Sup.Outside"),
+                Layer = Sound("p27_pi_papa220_fire_atmo_out"),
                 Reflection = Sound("Reflection_ARSUP.Outside")
             },
     
             Inside = { 
-                Layer = Sound("Atmo_Pistol_Sup.Inside"),
+                Layer = Sound("p27_pi_papa220_fire_atmo_in"),
                 Reflection = Sound("Reflection_ARSUP.Inside")
             }
         }
