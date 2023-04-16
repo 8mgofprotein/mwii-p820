@@ -8,13 +8,13 @@ include("animations.lua")
 include("customization.lua")
 
 if CLIENT then
-    killicon.Add( "mg_p320", "VGUI/entities/mg_p320", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/icon_cac_weapon_pi_papa320")
+    killicon.Add( "mg_mwiip220", "VGUI/entities/mg_mwiip220", Color(255, 0, 0, 255))
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_mwiip220")
 end
 
 SWEP.Base = "mg_base"
 
-SWEP.PrintName = "P820"
+SWEP.PrintName = "P890"
 SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Pistols"
 SWEP.Spawnable = true
@@ -97,7 +97,7 @@ SWEP.Recoil = {
 }
 
 SWEP.Bullet = {
-    Damage = {27, 18}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
+    Damage = {45, 39}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
     DropOffStartRange = 10,
     EffectiveRange = 28, --in meters, damage scales within this distance
     Range = 100, --in meters, after this distance the bullet stops existing

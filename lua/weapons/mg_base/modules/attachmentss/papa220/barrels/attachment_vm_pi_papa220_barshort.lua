@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "Matuzek Venom"
 ATTACHMENT.Model = Model("models/kyo/attachment_vm_pi_papa220_barshort.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/icon_attachment_pi_papa320_slide.vmt")
+ATTACHMENT.Icon = Material("models\kyo\icon\p220\icon_barshort.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

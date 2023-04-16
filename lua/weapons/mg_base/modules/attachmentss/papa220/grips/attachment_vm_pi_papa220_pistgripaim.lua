@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_pistolgrip"
 ATTACHMENT.Name = "Bruen Anchor Grip"
 ATTACHMENT.Model = Model("models/kyo/attachment_vm_pi_papa220_pstlgrip_aim.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mike9/icon_attachment_pi_mike9_pstlgrpcust_v2.vmt")
+ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mike9/icon_aimgrip.vmt")
 
 ATTACHMENT.Bodygroups = {
     ["grip"] = 1
